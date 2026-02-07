@@ -104,5 +104,14 @@
     "react-infinite-scroller": {
       "react": "19.2.0"
     }
+  },
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "strict": true
   }
 }

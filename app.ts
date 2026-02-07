@@ -4,8 +4,8 @@ import cors from "cors";
 import fs from "fs";
 import path from "path";
 import { execFile } from "child_process";
-import { createBaseServer } from "./base_backend/create";
-import { createJwtMiddleware } from "./jwt_middleware";
+import { createBaseServer } from "./base_backend/create.js";
+import { createJwtMiddleware } from "./jwt_middleware/jwt_middleware.js";
 
 async function main() {
   const APP_ID = process.env.CANVA_APP_ID;
