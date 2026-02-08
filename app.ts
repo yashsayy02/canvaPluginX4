@@ -102,7 +102,7 @@ async function main() {
   });
 
   const server = createBaseServer(router);
-  server.start(process.env.CANVA_BACKEND_PORT);
+  server.start(process.env.PORT);
 }
 
 main();
